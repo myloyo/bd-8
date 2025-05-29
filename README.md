@@ -1,7 +1,8 @@
 Репозиторий с реализацией визуализации базы данных (8 лабораторная работа) из разреза курса "Базы данных"
 
 Frontend - react, typescript, scss, antd
-Backend - python, postgres
+
+Backend - python (flask, sqlite3, flasgger for swagger)
 
 никакого докера не было и не будет, тупо запускала отдельно бек и фронт и так оно и работало
 
