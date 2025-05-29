@@ -1,0 +1,42 @@
+.data-table-container {
+  .data-table-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+    
+    .data-table-search {
+      display: flex;
+      gap: 8px;
+      flex: 1;
+      min-width: 300px;
+      
+      .ant-input-affix-wrapper {
+        flex: 1;
+      }
+    }
+    
+    .data-table-filters {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      
+      .filter-label {
+        color: rgba(0, 0, 0, 0.45);
+        white-space: nowrap;
+      }
+    }
+    
+    .data-table-actions {
+      margin-left: auto;
+      display: flex;
+      gap: 8px;
+    }
+  }
+  
+  .data-table {
+    .ant-table-tbody > tr:hover > td {
+      cursor: pointer;
+    }
+  }
+}

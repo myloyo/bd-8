@@ -1,0 +1,17 @@
+.entity-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  .entity-form-card {
+    .form-error {
+      margin-bottom: 24px;
+    }
+    
+    .entity-form {
+      .form-actions {
+        margin-bottom: 0;
+        padding-top: 8px;
+      }
+    }
+  }
+}

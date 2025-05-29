@@ -1,0 +1,20 @@
+.search-page {
+  .search-card {
+    margin-bottom: 24px;
+    
+    .search-form-layout {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+      
+      .search-button-container {
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+    
+    .search-results {
+      margin-top: 24px;
+    }
+  }
+}

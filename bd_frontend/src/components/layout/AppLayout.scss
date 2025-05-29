@@ -1,0 +1,56 @@
+.app-sider {
+  .logo {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    h2 {
+      color: white;
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+}
+
+.app-header {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  
+  .toggle-button {
+    font-size: 16px;
+    width: 64px;
+    height: 64px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+    .role-badge {
+      background-color: #1890ff;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+}
+
+.app-content {
+  margin: 16px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
